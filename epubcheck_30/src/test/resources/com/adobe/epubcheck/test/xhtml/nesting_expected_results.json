@@ -1,0 +1,21 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "name": "WARNING",
+              "ordinal": 0
+          },
+          "messageUI": "CTC-021",
+          "messageShortDescription": "Excessive container usage",
+          "messageLongCntxDescription": "Element contains more then 5 DIV or SPAN tags",
+          "sourceErroneousFileName": "OPS/deep_nesting.xhtml",
+          "sourceErroneousLineNumber": "-1",
+          "sourceErroneousColumnNumber": "-1",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      }
+  ]
+}

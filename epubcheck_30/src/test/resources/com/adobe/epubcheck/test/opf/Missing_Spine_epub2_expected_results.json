@@ -1,0 +1,21 @@
+{
+    "@type": "java.util.ArrayList",
+    "@items": [
+        {
+            "@type": "com.adobe.epubcheck.util.CheckMessage",
+            "severity": {
+                "@ref": 17,
+                "name": "ERROR"
+            },
+            "messageUI": "XPA-007",
+            "messageShortDescription": "Generic message",
+            "messageLongCntxDescription": "element \"package\" incomplete; missing required element \"spine\"",
+            "sourceErroneousFileName": "OPS/content.opf",
+            "sourceErroneousLineNumber": "13",
+            "sourceErroneousColumnNumber": "11",
+            "sourceLineText": null,
+            "messageMainCategory": "General",
+            "messageSubCategory": "Epub Structure"
+        }
+    ]
+}

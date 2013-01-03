@@ -1,0 +1,35 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+        {
+        "@type": "com.adobe.epubcheck.util.CheckMessage",
+        "severity": {
+          "@ref": 26
+        },
+        "messageUI": "CTC-018",
+        "messageShortDescription": "Document contains SCRIPT tag, but it's not marked as 'scripted' ",
+        "messageLongCntxDescription": "Content file inline_script_not_marked.xhtml contains SCRIPT tag and it's NOT marked as scripted.",
+        "sourceErroneousFileName": "EpubScriptCheck",
+        "sourceErroneousLineNumber": "-1",
+        "sourceErroneousColumnNumber": "-1",
+        "sourceLineText": null,
+        "messageMainCategory": "General",
+        "messageSubCategory": "Epub Structure"
+      },
+      {
+        "@type": "com.adobe.epubcheck.util.CheckMessage",
+        "severity": {
+          "@ref": 26
+        },
+        "messageUI": "CTC-018",
+        "messageShortDescription": "Document contains SCRIPT tag, but it's not marked as 'scripted' ",
+        "messageLongCntxDescription": "Content file external_script_not_marked.xhtml contains SCRIPT tag and it's NOT marked as scripted.",
+        "sourceErroneousFileName": "EpubScriptCheck",
+        "sourceErroneousLineNumber": "-1",
+        "sourceErroneousColumnNumber": "-1",
+        "sourceLineText": null,
+        "messageMainCategory": "General",
+        "messageSubCategory": "Epub Structure"
+      }
+  ]
+}

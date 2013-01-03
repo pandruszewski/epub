@@ -1,0 +1,65 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 26
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"strike\" not allowed here; expected the element end-tag, text or element \"a\", \"abbr\", \"address\", \"area\", \"article\", \"aside\", \"audio\", \"b\", \"bdi\", \"bdo\", \"blockquote\", \"br\", \"button\", \"canvas\", \"cite\", \"code\", \"command\", \"datalist\", \"del\", \"details\", \"dfn\", \"div\", \"dl\", \"em\", \"embed\", \"fieldset\", \"figure\", \"footer\", \"form\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"header\", \"hgroup\", \"hr\", \"i\", \"iframe\", \"img\", \"input\", \"ins\", \"kbd\", \"keygen\", \"label\", \"map\", \"mark\", \"menu\", \"meter\", \"nav\", \"ns1:switch\", \"ns1:trigger\", \"ns2:math\", \"ns3:svg\", \"object\", \"ol\", \"output\", \"p\", \"pre\", \"progress\", \"q\", \"ruby\", \"s\", \"samp\", \"script\", \"section\", \"select\", \"small\", \"span\", \"strong\", \"style\", \"sub\", \"sup\", \"table\", \"textarea\", \"time\", \"u\", \"ul\", \"var\", \"video\" or \"wbr\" (with xmlns:ns1=\"http://www.idpf.org/2007/ops\" xmlns:ns2=\"http://www.w3.org/1998/Math/MathML\" xmlns:ns3=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "20",
+          "sourceErroneousColumnNumber": "13",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 26
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"center\" not allowed here; expected the element end-tag, text or element \"a\", \"abbr\", \"address\", \"area\", \"article\", \"aside\", \"audio\", \"b\", \"bdi\", \"bdo\", \"blockquote\", \"br\", \"button\", \"canvas\", \"cite\", \"code\", \"command\", \"datalist\", \"del\", \"details\", \"dfn\", \"div\", \"dl\", \"em\", \"embed\", \"fieldset\", \"figure\", \"footer\", \"form\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"header\", \"hgroup\", \"hr\", \"i\", \"iframe\", \"img\", \"input\", \"ins\", \"kbd\", \"keygen\", \"label\", \"map\", \"mark\", \"menu\", \"meter\", \"nav\", \"ns1:switch\", \"ns1:trigger\", \"ns2:math\", \"ns3:svg\", \"object\", \"ol\", \"output\", \"p\", \"pre\", \"progress\", \"q\", \"ruby\", \"s\", \"samp\", \"script\", \"section\", \"select\", \"small\", \"span\", \"strong\", \"style\", \"sub\", \"sup\", \"table\", \"textarea\", \"time\", \"u\", \"ul\", \"var\", \"video\" or \"wbr\" (with xmlns:ns1=\"http://www.idpf.org/2007/ops\" xmlns:ns2=\"http://www.w3.org/1998/Math/MathML\" xmlns:ns3=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "21",
+          "sourceErroneousColumnNumber": "13",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 26
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"big\" not allowed here; expected the element end-tag, text or element \"a\", \"abbr\", \"address\", \"area\", \"article\", \"aside\", \"audio\", \"b\", \"bdi\", \"bdo\", \"blockquote\", \"br\", \"button\", \"canvas\", \"cite\", \"code\", \"command\", \"datalist\", \"del\", \"details\", \"dfn\", \"div\", \"dl\", \"em\", \"embed\", \"fieldset\", \"figure\", \"footer\", \"form\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"header\", \"hgroup\", \"hr\", \"i\", \"iframe\", \"img\", \"input\", \"ins\", \"kbd\", \"keygen\", \"label\", \"map\", \"mark\", \"menu\", \"meter\", \"nav\", \"ns1:switch\", \"ns1:trigger\", \"ns2:math\", \"ns3:svg\", \"object\", \"ol\", \"output\", \"p\", \"pre\", \"progress\", \"q\", \"ruby\", \"s\", \"samp\", \"script\", \"section\", \"select\", \"small\", \"span\", \"strong\", \"style\", \"sub\", \"sup\", \"table\", \"textarea\", \"time\", \"u\", \"ul\", \"var\", \"video\" or \"wbr\" (with xmlns:ns1=\"http://www.idpf.org/2007/ops\" xmlns:ns2=\"http://www.w3.org/1998/Math/MathML\" xmlns:ns3=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "22",
+          "sourceErroneousColumnNumber": "10",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 26
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"acronym\" not allowed here; expected the element end-tag, text or element \"a\", \"abbr\", \"address\", \"area\", \"article\", \"aside\", \"audio\", \"b\", \"bdi\", \"bdo\", \"blockquote\", \"br\", \"button\", \"canvas\", \"cite\", \"code\", \"command\", \"datalist\", \"del\", \"details\", \"dfn\", \"div\", \"dl\", \"em\", \"embed\", \"fieldset\", \"figure\", \"footer\", \"form\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"header\", \"hgroup\", \"hr\", \"i\", \"iframe\", \"img\", \"input\", \"ins\", \"kbd\", \"keygen\", \"label\", \"map\", \"mark\", \"menu\", \"meter\", \"nav\", \"ns1:switch\", \"ns1:trigger\", \"ns2:math\", \"ns3:svg\", \"object\", \"ol\", \"output\", \"p\", \"pre\", \"progress\", \"q\", \"ruby\", \"s\", \"samp\", \"script\", \"section\", \"select\", \"small\", \"span\", \"strong\", \"style\", \"sub\", \"sup\", \"table\", \"textarea\", \"time\", \"u\", \"ul\", \"var\", \"video\" or \"wbr\" (with xmlns:ns1=\"http://www.idpf.org/2007/ops\" xmlns:ns2=\"http://www.w3.org/1998/Math/MathML\" xmlns:ns3=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "23",
+          "sourceErroneousColumnNumber": "57",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      }
+  ]
+}

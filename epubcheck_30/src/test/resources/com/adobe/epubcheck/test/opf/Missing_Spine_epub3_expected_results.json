@@ -1,0 +1,37 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17,
+              "name": "ERROR"
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"package\" incomplete; missing required element \"spine\"",
+          "sourceErroneousFileName": "OPS/content.opf",
+          "sourceErroneousLineNumber": "13",
+          "sourceErroneousColumnNumber": "11",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "name": "WARNING",
+              "ordinal": 0
+          },
+          "messageUI": "OPF-056",
+          "messageShortDescription": "Hyperlink to resource outside spine",
+          "messageLongCntxDescription": "hyperlink to resource outside spine 'OPS/page01.xhtml'",
+          "sourceErroneousFileName": "OPS/toc.xhtml",
+          "sourceErroneousLineNumber": "11",
+          "sourceErroneousColumnNumber": "36",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"article\" not allowed anywhere; expected the element end-tag, text or element \"a\", \"abbr\", \"acronym\", \"address\", \"applet\", \"b\", \"bdo\", \"big\", \"blockquote\", \"br\", \"cite\", \"code\", \"del\", \"dfn\", \"div\", \"dl\", \"em\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"hr\", \"i\", \"iframe\", \"img\", \"ins\", \"kbd\", \"map\", \"noscript\", \"ns:svg\", \"object\", \"ol\", \"p\", \"pre\", \"q\", \"samp\", \"script\", \"small\", \"span\", \"strong\", \"sub\", \"sup\", \"table\", \"tt\", \"ul\" or \"var\" (with xmlns:ns=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "8",
+          "sourceErroneousColumnNumber": "15",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"article\" not allowed anywhere; expected the element end-tag, text or element \"a\", \"abbr\", \"acronym\", \"address\", \"applet\", \"b\", \"bdo\", \"big\", \"blockquote\", \"br\", \"cite\", \"code\", \"del\", \"dfn\", \"div\", \"dl\", \"em\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"hr\", \"i\", \"iframe\", \"img\", \"ins\", \"kbd\", \"map\", \"noscript\", \"ns:svg\", \"object\", \"ol\", \"p\", \"pre\", \"q\", \"samp\", \"script\", \"small\", \"span\", \"strong\", \"sub\", \"sup\", \"table\", \"tt\", \"ul\" or \"var\" (with xmlns:ns=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "9",
+          "sourceErroneousColumnNumber": "38",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"article\" not allowed anywhere; expected the element end-tag, text or element \"a\", \"abbr\", \"acronym\", \"address\", \"applet\", \"b\", \"bdo\", \"big\", \"blockquote\", \"br\", \"cite\", \"code\", \"del\", \"dfn\", \"div\", \"dl\", \"em\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"hr\", \"i\", \"iframe\", \"img\", \"ins\", \"kbd\", \"map\", \"noscript\", \"ns:svg\", \"object\", \"ol\", \"p\", \"pre\", \"q\", \"samp\", \"script\", \"small\", \"span\", \"strong\", \"sub\", \"sup\", \"table\", \"tt\", \"ul\" or \"var\" (with xmlns:ns=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "11",
+          "sourceErroneousColumnNumber": "65",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"aside\" not allowed anywhere; expected the element end-tag, text or element \"a\", \"abbr\", \"acronym\", \"address\", \"applet\", \"b\", \"bdo\", \"big\", \"blockquote\", \"br\", \"cite\", \"code\", \"del\", \"dfn\", \"div\", \"dl\", \"em\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"hr\", \"i\", \"iframe\", \"img\", \"ins\", \"kbd\", \"map\", \"noscript\", \"ns:svg\", \"object\", \"ol\", \"p\", \"pre\", \"q\", \"samp\", \"script\", \"small\", \"span\", \"strong\", \"sub\", \"sup\", \"table\", \"tt\", \"ul\" or \"var\" (with xmlns:ns=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "14",
+          "sourceErroneousColumnNumber": "13",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"aside\" not allowed anywhere; expected the element end-tag, text or element \"a\", \"abbr\", \"acronym\", \"address\", \"applet\", \"b\", \"bdo\", \"big\", \"blockquote\", \"br\", \"cite\", \"code\", \"del\", \"dfn\", \"div\", \"dl\", \"em\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"hr\", \"i\", \"iframe\", \"img\", \"ins\", \"kbd\", \"map\", \"noscript\", \"ns:svg\", \"object\", \"ol\", \"p\", \"pre\", \"q\", \"samp\", \"script\", \"small\", \"span\", \"strong\", \"sub\", \"sup\", \"table\", \"tt\", \"ul\" or \"var\" (with xmlns:ns=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "15",
+          "sourceErroneousColumnNumber": "31",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"aside\" not allowed anywhere; expected the element end-tag, text or element \"a\", \"abbr\", \"acronym\", \"address\", \"applet\", \"b\", \"bdo\", \"big\", \"blockquote\", \"br\", \"cite\", \"code\", \"del\", \"dfn\", \"div\", \"dl\", \"em\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"hr\", \"i\", \"iframe\", \"img\", \"ins\", \"kbd\", \"map\", \"noscript\", \"ns:svg\", \"object\", \"ol\", \"p\", \"pre\", \"q\", \"samp\", \"script\", \"small\", \"span\", \"strong\", \"sub\", \"sup\", \"table\", \"tt\", \"ul\" or \"var\" (with xmlns:ns=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "16",
+          "sourceErroneousColumnNumber": "75",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      },
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@ref": 17
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"audio\" not allowed anywhere; expected the element end-tag, text or element \"a\", \"abbr\", \"acronym\", \"address\", \"applet\", \"b\", \"bdo\", \"big\", \"blockquote\", \"br\", \"cite\", \"code\", \"del\", \"dfn\", \"div\", \"dl\", \"em\", \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"hr\", \"i\", \"iframe\", \"img\", \"ins\", \"kbd\", \"map\", \"noscript\", \"ns:svg\", \"object\", \"ol\", \"p\", \"pre\", \"q\", \"samp\", \"script\", \"small\", \"span\", \"strong\", \"sub\", \"sup\", \"table\", \"tt\", \"ul\" or \"var\" (with xmlns:ns=\"http://www.w3.org/2000/svg\")",
+          "sourceErroneousFileName": "OPS/html5.xhtml",
+          "sourceErroneousLineNumber": "19",
+          "sourceErroneousColumnNumber": "54",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      }
+  ]
+}

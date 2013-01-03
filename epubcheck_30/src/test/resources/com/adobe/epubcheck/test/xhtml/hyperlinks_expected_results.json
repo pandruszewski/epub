@@ -1,0 +1,37 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+    {
+      "@type": "com.adobe.epubcheck.util.CheckMessage",
+      "severity": {
+        "@id": 17,
+        "name": "ERROR",
+        "ordinal": 1
+      },
+      "messageUI": "CTC-007",
+      "messageShortDescription": "Http found",
+      "messageLongCntxDescription": "Found Http: in file OPS/links.xhtml at line 19 and column 75",
+      "sourceErroneousFileName": "OPS/links.xhtml",
+      "sourceErroneousLineNumber": "19",
+      "sourceErroneousColumnNumber": "75",
+      "sourceLineText": null,
+      "messageMainCategory": "Security",
+      "messageSubCategory": "External references"
+    },
+    {
+      "@type": "com.adobe.epubcheck.util.CheckMessage",
+      "severity": {
+        "@ref": 17
+      },
+      "messageUI": "CTC-009",
+      "messageShortDescription": "www found",
+      "messageLongCntxDescription": "Found www: in file OPS/links.xhtml at line 19 and column 75",
+      "sourceErroneousFileName": "OPS/links.xhtml",
+      "sourceErroneousLineNumber": "19",
+      "sourceErroneousColumnNumber": "75",
+      "sourceLineText": null,
+      "messageMainCategory": "Security",
+      "messageSubCategory": "External references"
+    }
+  ]
+}

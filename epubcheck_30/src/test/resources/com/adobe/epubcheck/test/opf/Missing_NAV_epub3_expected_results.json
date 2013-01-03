@@ -1,0 +1,21 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "name": "ERROR",
+              "ordinal": 1
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "assertion failed:\r\n  Exactly one manifest item must declare the 'nav' property (number of 'nav' items: 0).",
+          "sourceErroneousFileName": "OPS/content.opf",
+          "sourceErroneousLineNumber": "9",
+          "sourceErroneousColumnNumber": "13",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      }
+  ]
+}

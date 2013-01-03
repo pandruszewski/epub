@@ -1,0 +1,21 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "name": "INFO",
+              "ordinal": 3
+          },
+          "messageUI": "CTC-010",
+          "messageShortDescription": "TOC not defined",
+          "messageLongCntxDescription": ".NCX file not included for older devices",
+          "sourceErroneousFileName": "OPS/content.opf",
+          "sourceErroneousLineNumber": "-1",
+          "sourceErroneousColumnNumber": "-1",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      }
+  ]
+}

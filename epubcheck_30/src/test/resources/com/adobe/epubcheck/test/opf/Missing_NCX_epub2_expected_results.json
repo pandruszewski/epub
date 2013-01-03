@@ -1,0 +1,22 @@
+{
+  "@type": "java.util.ArrayList",
+  "@items": [
+      {
+          "@type": "com.adobe.epubcheck.util.CheckMessage",
+          "severity": {
+              "@id": 17,
+              "name": "ERROR",
+              "ordinal": 1
+          },
+          "messageUI": "XPA-007",
+          "messageShortDescription": "Generic message",
+          "messageLongCntxDescription": "element \"spine\" missing required attribute \"toc\"",
+          "sourceErroneousFileName": "OPS/content.opf",
+          "sourceErroneousLineNumber": "11",
+          "sourceErroneousColumnNumber": "10",
+          "sourceLineText": null,
+          "messageMainCategory": "General",
+          "messageSubCategory": "Epub Structure"
+      }
+  ]
+}
