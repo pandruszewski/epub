@@ -31,6 +31,7 @@ import java.io.PrintWriter;
 import java.util.Properties;
 import java.util.zip.ZipFile;
 
+import com.adobe.epubcheck.ctc.CheckManager;
 import com.adobe.epubcheck.ocf.OCFChecker;
 import com.adobe.epubcheck.ocf.OCFPackage;
 import com.adobe.epubcheck.ocf.OCFZipPackage;
@@ -199,6 +200,11 @@ public class EpubCheck implements DocumentValidator {
 		
 			zip = new ZipFile(epubFile);
 
+			/***Here are called custom checks (CTC Package)**/
+			CheckManager c = new CheckManager(zip, report);
+			c.checkPackage();
+
+			
 			OCFPackage ocf = new OCFZipPackage(zip);
 
 			OCFChecker checker = new OCFChecker(ocf, report, version);

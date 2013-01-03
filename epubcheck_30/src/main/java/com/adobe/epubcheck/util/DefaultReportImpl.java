@@ -26,7 +26,8 @@ import com.adobe.epubcheck.api.Report;
 public class DefaultReportImpl implements Report {
 
     private static boolean DEBUG = false;
-	private String ePubName;
+	static String ePubName;
+	public static String ePubVersion;
 	private int errorCount, warningCount, exceptionCount;
 
 	public DefaultReportImpl(String ePubName) {

@@ -54,6 +54,19 @@ public class Checker {
 	private static OPSType opsType;
 	private static boolean expanded = false;
 	private static boolean keep = false;
+	
+	private static boolean json = false;
+	private static boolean jsonOutput = false;
+	private static boolean txt = false;
+	private static String outputJsonPath = "";
+	public static boolean error = false;
+	public static boolean exception = false;
+	public static boolean warning = false;
+	public static boolean info = false;
+	public static boolean printAll = true;
+	public static boolean printSome = false;
+
+	
 
 	private static HashMap<OPSType, String> modeMimeTypeMap;
 	private static File fileOut;
