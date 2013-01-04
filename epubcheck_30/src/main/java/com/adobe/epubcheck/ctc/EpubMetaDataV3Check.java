@@ -58,26 +58,26 @@ public class EpubMetaDataV3Check implements DocumentValidator{
 			{
 				if(childList.item(i).getNodeName().compareToIgnoreCase("dc:identifier")==0)
 				{
-					//System.out.println("!!!!!!!!!DC IDENTIFIER");
+					
 					NamedNodeMap a=childList.item(i).getAttributes();
 					isDefiniedIdentifier=true;
 					
 				}
 				if(childList.item(i).getNodeName().compareToIgnoreCase("dc:title")==0)
 				{
-					//System.out.println("!!!!!!!!!DC TITLE");
+					
 					isDefiniedTitle=true;
 				}
 				if(childList.item(i).getNodeName().compareToIgnoreCase("dc:language")==0)
 				{
-					//System.out.println("!!!!!!!!!DC LANGUAGE");
+					
 					NamedNodeMap a=childList.item(i).getAttributes();
 					isDefiniedLanguage=true;
 					
 				}
 				if(childList.item(i).getNodeName().compareToIgnoreCase("meta")==0)
 				{
-					//System.out.println("!!!!!!!!!DC META");
+					
 					NamedNodeMap a=childList.item(i).getAttributes();
 					if(a.getNamedItem("property")!=null)
 					{

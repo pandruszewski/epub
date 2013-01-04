@@ -1,4 +1,4 @@
-package com.adobe.epubcheck.ctc;
+	package com.adobe.epubcheck.ctc;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -113,7 +113,7 @@ public class EpubHTML5StructureCheck implements DocumentValidator {
 						CheckingReport.addCheckMessage(mi.getHref(),
 								String.valueOf(-1),
 								String.valueOf(-1),
-								"HTML4 specific tags found "+mi.getHref(),"CTC-047");
+								"HTML5 specific tags are included in Epub3","CTC-047");
 					}
 					/*
 					if(sh.getHtml5SpecTagsCounter()>0)

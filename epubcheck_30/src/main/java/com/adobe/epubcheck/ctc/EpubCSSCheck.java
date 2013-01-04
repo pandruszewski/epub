@@ -215,7 +215,7 @@ public class EpubCSSCheck implements DocumentValidator{
 			CheckingReport.addCheckMessage("EpubTextContentCheck",
 					String.valueOf(-1),
 					String.valueOf(-1),
-					"ZipEntry "+entry+" not found. Missed package file or wrong item href value","CTC-0003");
+					"ZipEntry "+entry+" not found. Missed package file or wrong item href value","CTC-003");
 			
 		
 		} catch (Exception e) {

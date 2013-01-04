@@ -67,7 +67,7 @@ public class CheckManager
 			factory.newInstance(report, ValidationType.METADATA_V2, epack).validate();
 		}
 		
-		
+		factory.newInstance(report, ValidationType.TOC, epack).validate();
 	
 		if(epack.getVersion().equals(EPUBVersion.VERSION_3))
 		{	
@@ -98,6 +98,8 @@ public class CheckManager
 		factory.newInstance(report, ValidationType.SPAN, epack).validate();
 		
 		factory.newInstance(report, ValidationType.STYLE, epack).validate();
+		
+		
 		
 	}
 	

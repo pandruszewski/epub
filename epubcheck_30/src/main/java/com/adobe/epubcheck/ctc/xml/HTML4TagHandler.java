@@ -39,7 +39,7 @@ public class HTML4TagHandler extends DefaultHandler
 						{
 						
 							String messageCode="CTC-022";
-							String message="Found <"+HTML4SpecTags[i]+"> (HTML4 specific tag) in file "+entry+" at line "+locator.getLineNumber()+" and column "+locator.getColumnNumber();
+							String message="Tags which are not allowed by HTML5 specification used in the Epub";
 							CheckingReport.addCheckMessage(entry,
     								String.valueOf(locator.getLineNumber()),
     								String.valueOf(locator.getColumnNumber()),

@@ -1512,6 +1512,17 @@ public class Dictionary {
 		);
 		
 		info.put(
+				"CTC-016",
+				new AdditionalInfo(
+						Severity.WARNING,
+						"General", //Main category
+						"Epub Structure",	//SubCategory
+						"Check if <ToC> is declared"	//ShortDescription
+				)
+		);
+		
+		
+		info.put(
 				"CTC-017",
 				new AdditionalInfo(
 						Severity.INFO,

@@ -40,7 +40,7 @@ public class HTML5TagHandler extends DefaultHandler
 						{
 						
 							String messageCode="CTC-023";
-							String message="Found <"+HTML5SpecTags[i]+"> (HTML5 specific tag) in file "+entry+" at line "+locator.getLineNumber()+" and column "+locator.getColumnNumber();
+							String message="HTML5 specific tags are included in Epub2";
 							CheckingReport.addCheckMessage(entry,
     								String.valueOf(locator.getLineNumber()),
     								String.valueOf(locator.getColumnNumber()),

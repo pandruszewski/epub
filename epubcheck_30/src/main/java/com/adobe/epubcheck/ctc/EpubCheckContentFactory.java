@@ -68,6 +68,8 @@ public class EpubCheckContentFactory implements ContentValidator
 			return new EpubStyleSheetsCheck(epack, report);
 		else if(vt.equals(ValidationType.EPUB3_STRUCTURE)==true)
 			return new Epub3StructureCheck(epack, report);
+		else if(vt.equals(ValidationType.TOC)==true)
+			return new EpubTocCheck(epack, report);
 		else
 			return null;
 		

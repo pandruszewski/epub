@@ -220,12 +220,12 @@ public class EpubCfiCheck implements DocumentValidator{
 			if(entry.getValue().contains("#epubcfi"))
 			{
 		  	
-				if(entry.getValue().startsWith("http://") || entry.getValue().startsWith("http://"))
+				if(entry.getValue().startsWith("http://") || entry.getValue().startsWith("ftp://"))
 				{			    
 					CheckingReport.addCheckMessage(file,
 						String.valueOf(entry.getLine()),
 						String.valueOf(entry.getColumn()),
-						"Found Outer-publication CFI in file "+file+" at line "+entry.getLine()+" and column "+entry.getColumn(),
+						"Outer Publication CFIs included",
 						"CTC-041");
 				}
 				else					
@@ -234,7 +234,7 @@ public class EpubCfiCheck implements DocumentValidator{
 					CheckingReport.addCheckMessage(file,
 							String.valueOf(entry.getLine()),
 							String.valueOf(entry.getColumn()),
-							"Found Intra-publication CFI in file "+file+" at line "+entry.getLine()+" and column "+entry.getColumn(),
+							"Intra-Publication CFIs found in document",
 							"CTC-042");
 					
 				}

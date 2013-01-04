@@ -66,7 +66,7 @@ public class HTMLTagsAnalyseHandler extends DefaultHandler
 				for(int i=0;i<HTML4SpecTags.length;i++)
 				{
 					
-					if(qName.compareToIgnoreCase(HTML5SpecTags[i])==0)
+					if(qName.compareToIgnoreCase(HTML4SpecTags[i])==0)
 						{
 							/*
 							String messageCode="CTC-023";

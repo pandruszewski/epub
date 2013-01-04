@@ -58,7 +58,7 @@ public class LinkTagHandler extends DefaultHandler
 	
 	public void checkForMultipleStyleSheets()
 	{
-		linkTagsCount=linkTags.size();
+		
 		
 		alternateStyleSheetsCount=0;
 		for(int i=0;i<linkTags.size();i++)
@@ -72,6 +72,7 @@ public class LinkTagHandler extends DefaultHandler
 				alternateStyleSheetsCount++;
 			}
 		}
+		linkTagsCount=styleSheetsCount+alternateStyleSheetsCount;
 	}
 	
 	public void startElement(String uri, String localName,String qName, 
